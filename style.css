@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.header {
+  background-color: #fafad2;
+  padding-bottom: 50px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #66bb22;
+}
+
+.Logo {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  padding-top: 20px; /* Adiciona espaço acima da logo */
+}
+
+.Logo-Icon {
+  width: 300px;
+  height: auto;
+}
+
+h1 {
+  text-align: center; /* Centraliza o texto do título */
+  font-weight: 700; /* Define o peso da fonte como negrito */
+  font-size: 100px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none; /* Remove os marcadores */
+  gap: 15px; /* Espaçamento entre os itens */
+  padding: 0;
+  margin: 0;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+}
