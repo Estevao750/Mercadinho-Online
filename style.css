@@ -2,7 +2,9 @@
 
 .header {
   background-color: #fafad2;
+  position: relative; /*altera a posição de um elemento tendo como referência a posição inicial dele*/
   padding-bottom: 50px;
+  text-align: center;
 }
 
 body {
@@ -23,9 +25,15 @@ body {
 }
 
 h1 {
-  text-align: center; /* Centraliza o texto do título */
   font-weight: 700; /* Define o peso da fonte como negrito */
   font-size: 100px;
+  margin-top: 5px;
+}
+
+nav {
+  position: absolute;
+  left: 15px;
+  bottom: 5px;
 }
 
 ul {
