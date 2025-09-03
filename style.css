@@ -1,47 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-.header {
-  background-color: #fafad2;
-  position: relative; /*altera a posição de um elemento tendo como referência a posição inicial dele*/
-  padding-bottom: 135px;
-  text-align: center;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   background-color: #66bb22;
-}
-
-.Logo {
-  display: flex;
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
-  padding-top: 20px; /* Adiciona espaço acima da logo */
-}
-
-.Logo-Icon {
-  width: 300px;
-  height: auto;
-}
-
-h1 {
-  font-weight: 700; /* Define o peso da fonte como negrito */
-  font-size: 100px;
-  margin-top: 5px;
-}
-
-nav {
-  position: absolute;
-  left: 15px;
-  bottom: 5px;
-}
-
-ul {
-  display: flex;
-  list-style-type: none; /* Remove os marcadores */
-  gap: 15px; /* Espaçamento entre os itens */
-  padding: 0;
-  margin: 0;
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
 }
